@@ -28,5 +28,12 @@ function prependKitten(array, element){
 return ["Arnold",...kittens]
 }
 
+function removeFirstKitten(array){
+return kittens.slice(1)
+}
+
+function removeLastKitten(array){
+return kittens.slice(-1)
+}
 
 // Add your functions and code here
