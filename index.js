@@ -33,7 +33,7 @@ return kittens.slice(1)
 }
 
 function removeLastKitten(array){
-return kittens.slice(0,array.length - 1)
+return kittens.slice(0,1)
 }
 
 // Add your functions and code here
