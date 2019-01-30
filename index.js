@@ -5,8 +5,18 @@ kittens.push("Ralph");
 return kittens
 }
 
-function destructivelyAppendKitten(array,element){
+function destructivelyPrependKitten(array,element){
 kittens.unshift("Bob");
+return kittens
+}
+
+function destructivelyRemoveLastKitten(array){
+kittens.pop();
+return kittens
+}
+
+function destructivelyRemoveFirstKitten(array){
+kittens.shift();
 return kittens
 }
 // Add your functions and code here
