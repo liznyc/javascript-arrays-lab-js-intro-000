@@ -2,7 +2,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function destructivelyAppendKitten(kittens){
 kittens.unshift("Ralps");
-return kittens  
+return kittens
 }
 
 // Add your functions and code here
